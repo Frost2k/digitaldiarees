@@ -1,0 +1,1067 @@
+[
+    {
+        "key": "group_interviews_page",
+        "title": "Interviews Page Fields",
+        "fields": [
+            {
+                "key": "field_interviews_video_file",
+                "label": "Interview Video File",
+                "name": "interviews_video_file",
+                "aria-label": "",
+                "type": "file",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "library": "all",
+                "mime_types": "mp4,webm,ogg",
+                "min_size": 0,
+                "max_size": 0
+            },
+            {
+                "key": "field_interviews_title",
+                "label": "Interviews Title",
+                "name": "interviews_title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_interviews_link",
+                "label": "Interviews Link",
+                "name": "interviews_link",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "templates\/page-interviews.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [],
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_67f47156840fc",
+        "title": "Landing",
+        "fields": [
+            {
+                "key": "field_67f4715855fe9",
+                "label": "background_image",
+                "name": "background_image",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "allow_in_bindings": 1,
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_67f4716e55fea",
+                "label": "Overlay Heading",
+                "name": "overlay_heading",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 1,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_67f4734fa4ba8",
+                "label": "Overlay Tagline",
+                "name": "overlay_tagline",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_67f4a30a90932",
+                "label": "Featured Stories Video Img",
+                "name": "featured_stories_video_img",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "allow_in_bindings": 1,
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_67f4a38d7f893",
+                "label": "Featured Stories Video Img Link",
+                "name": "featured_stories_video_img_link",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "allow_in_bindings": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_67f4a3b17f894",
+                "label": "Featured Stories Images",
+                "name": "featured_stories_images",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "allow_in_bindings": 0,
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_67f4a9ee7f895",
+                "label": "Featured Stories Images Link",
+                "name": "featured_stories_images_link",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "allow_in_bindings": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_67f4aa027f896",
+                "label": "Contribut Title",
+                "name": "contribut_title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_67f4aa267f898",
+                "label": "Contribute Link",
+                "name": "contribute_link",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "allow_in_bindings": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_67f4b1e7a9b9e",
+                "label": "Contribute Title",
+                "name": "contribute_title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_67f4aa147f897",
+                "label": "Contribute Text",
+                "name": "contribute_text",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "rows": "",
+                "placeholder": "",
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "151"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_main_content_blocks",
+        "title": "Main Content Blocks",
+        "fields": [
+            {
+                "key": "field_stills_heading",
+                "label": "Stills",
+                "name": "",
+                "aria-label": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_stills_image_1",
+                "label": "Stills Image 1",
+                "name": "stills_image_1",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_stills_link_1",
+                "label": "Stills Link 1",
+                "name": "stills_link_1",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_stills_image_2",
+                "label": "Stills Image 2",
+                "name": "stills_image_2",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_stills_link_2",
+                "label": "Stills Link 2",
+                "name": "stills_link_2",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_stills_image_3",
+                "label": "Stills Image 3",
+                "name": "stills_image_3",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_stills_link_3",
+                "label": "Stills Link 3",
+                "name": "stills_link_3",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_interviews_heading",
+                "label": "Interviews",
+                "name": "",
+                "aria-label": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_interviews_image_1",
+                "label": "Interviews Image 1",
+                "name": "interviews_image_1",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_interviews_link_1",
+                "label": "Interviews Link 1",
+                "name": "interviews_link_1",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_interviews_title_1",
+                "label": "Interviews Title 1",
+                "name": "interviews_title_1",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_interviews_image_2",
+                "label": "Interviews Image 2",
+                "name": "interviews_image_2",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_interviews_link_2",
+                "label": "Interviews Link 2",
+                "name": "interviews_link_2",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_interviews_title_2",
+                "label": "Interviews Title 2",
+                "name": "interviews_title_2",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_interviews_image_3",
+                "label": "Interviews Image 3",
+                "name": "interviews_image_3",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_interviews_link_3",
+                "label": "Interviews Link 3",
+                "name": "interviews_link_3",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_interviews_title_3",
+                "label": "Interviews Title 3",
+                "name": "interviews_title_3",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_stories_heading",
+                "label": "Stories",
+                "name": "",
+                "aria-label": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_stories_image_1",
+                "label": "Stories Image 1",
+                "name": "stories_image_1",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_stories_link_1",
+                "label": "Stories Link 1",
+                "name": "stories_link_1",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_stories_title_1",
+                "label": "Stories Title 1",
+                "name": "stories_title_1",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_stories_image_2",
+                "label": "Stories Image 2",
+                "name": "stories_image_2",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_stories_link_2",
+                "label": "Stories Link 2",
+                "name": "stories_link_2",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_stories_title_2",
+                "label": "Stories Title 2",
+                "name": "stories_title_2",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_stories_image_3",
+                "label": "Stories Image 3",
+                "name": "stories_image_3",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_stories_link_3",
+                "label": "Stories Link 3",
+                "name": "stories_link_3",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_stories_title_3",
+                "label": "Stories Title 3",
+                "name": "stories_title_3",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "templates\/main-content.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [],
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_stills_page",
+        "title": "Stills Page Fields",
+        "fields": [
+            {
+                "key": "field_stills_image",
+                "label": "Stills Image",
+                "name": "stills_image",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_stills_link",
+                "label": "Stills Link",
+                "name": "stills_link",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "templates\/page-stills.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [],
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    },
+    {
+        "key": "group_stories_page",
+        "title": "Stories Page Fields",
+        "fields": [
+            {
+                "key": "field_stories_video_file",
+                "label": "Stories Video File",
+                "name": "stories_video_file",
+                "aria-label": "",
+                "type": "file",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "library": "all",
+                "mime_types": "mp4,webm,ogg",
+                "min_size": 0,
+                "max_size": 0
+            },
+            {
+                "key": "field_stories_title",
+                "label": "Stories Title",
+                "name": "stories_title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_stories_link",
+                "label": "Stories Link",
+                "name": "stories_link",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": false,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "templates\/page-stories.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [],
+        "active": true,
+        "description": "",
+        "show_in_rest": false
+    }
+]
