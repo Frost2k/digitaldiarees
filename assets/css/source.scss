@@ -116,14 +116,14 @@ $highlight: #99BDC2;
 }
 
 .overlay-heading {
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
     text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 }
 
 .overlay-tagline {
-    font-size: 1.25rem;
+    font-size: 3.25rem;
     font-style: italic;
     opacity: 0.9;
 }
@@ -961,3 +961,283 @@ $highlight: #99BDC2;
     width: 23rem !important;
     transform: rotate(0deg) !important;
 }
+
+// About Page
+.about-wrapper {
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    width: 100%;
+   }
+   
+   
+   .about-heading-outer {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+   }
+   
+   
+   .mission-title-outer {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 0.5rem;
+   }
+   
+   
+   .mission-subtitle-outer {
+    font-style: italic;
+    font-size: 2rem;
+    color: #555;
+   }
+   
+   
+   .about-inner {
+    max-width: 1200px;
+    margin: 35rem auto;
+    background-color: #123359;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px; /* ensures enough space to center vertically */
+   }
+   
+   
+   .about-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center; /* centers mission text vertically */
+    width: 100%;
+   }
+   
+   
+   .about-text {
+    flex: 1;
+    color: #fff;
+   }
+   
+   
+   .about-mission-text {
+    font-size: 2.5rem;
+    line-height: 1.8;
+    text-align: center;
+    color: #fff;
+   }
+   
+   
+   .vertical-divider {
+    width: 5px;
+    background-color: #ffffff;
+    height: 100%;
+    align-self: stretch;
+   }
+   
+   
+   .about-media {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   }
+   
+   
+   .media-block img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    transition: transform 0.3s ease;
+   }
+   
+   
+   .media-block img:hover {
+    transform: scale(1.02);
+   }
+   
+   
+   @media screen and (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+    }
+   
+   
+    .vertical-divider {
+      display: none;
+    }
+   
+   
+    .mission-title-outer {
+      font-size: 5rem;
+    }
+   
+   
+    .about-mission-text {
+      font-size: 5rem;
+    }
+   }
+   
+   
+   .about-banner {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: absolute;
+   }
+   
+   
+   .about-heading-outer {
+    text-align: center;
+    color: #000000;
+   }
+   
+   
+   .mission-title-outer {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 0.5rem;
+   }
+   
+   
+   .mission-subtitle-outer {
+    font-style: italic;
+    font-size: 2rem;
+    color: #333333;
+   }
+   
+   
+   .about-mission-text-wrapper {
+    background-color: #123359;
+    padding: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center; /* vertically center */
+    justify-content: center; /* optional: horizontal centering */
+    border-radius: 12px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+   }
+   
+   
+   .about-mission-text {
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color: #ffffff;
+    text-align: center;
+   }
+   
+   
+   @media screen and (max-width: 768px) {
+    .about-mission-text {
+      font-size: 5rem;
+    }
+   
+   
+    .about-mission-text-wrapper {
+      padding: 20px;
+    }
+   }
+   
+   
+   .how-it-works-section {
+    background-color: transparent;
+    padding: 60px 20px;
+    margin-top: 30rem;
+   }
+   
+   
+   .how-it-works-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 24px; /* space between cards */
+    max-width: 1000px;
+    padding: 0 20px;
+   }
+   
+   
+   .how-card {
+    background-color: #E7F0F9;
+    border-radius: 12px;
+    padding: 32px;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical center */
+    align-items: center;     /* horizontal center */
+    text-align: center;      /* center text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+   }
+   
+   
+   .how-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+   }
+   
+   
+   .how-icon img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+   }
+   
+   
+   .how-card h3 {
+    font-size: 1.5rem; /* increase title size */
+    font-weight: 700;
+    margin-bottom: 12px;
+   }
+   
+   
+   .how-card p {
+    font-size: 1.2rem; /* increase body text size */
+    line-height: 1.6;
+   }
+
+   .carousel-section{
+    background-color: $primary-dark;
+    border-radius: 10px;
+   }
+
+   .flexslider .slides li{
+    border-radius: 10px;
+   }
+
+   .menu-item :hover{
+    background-color: $coral !important;
+    color: white !important;
+    border-radius: 10px;
+   }
+
+   .menu-search-toggle{
+    .fas{
+        color: $primary-dark !important;
+        }
+    .fas:hover{
+        color: $coral !important;
+        }
+    }
+
+    .sidebar{
+        .menu-item :hover{
+            background-color: unset !important;
+            color: $coral !important;
+            border-radius: unset;
+        }
+        width: 15% !important;
+        padding-top: 90px;
+        h2{
+            color: $highlight !important;
+        }
+    }
+    

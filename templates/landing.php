@@ -118,6 +118,15 @@ get_header();
                 </div>
             </div>
         </div>
+        <h2 class="section-title" style="text-align: center;">Latest Uploads</h2>
+        <div class="carousel-section">
+            <div class="container">
+                <div class="section-title-wrap" style="text-align: center;">
+                    <?php
+                        echo do_shortcode('[metaslider id="309"]');
+                    ?>
+                </div>
+            </div>
     </main>
 </div>
 

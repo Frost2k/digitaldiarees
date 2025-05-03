@@ -5,28 +5,12 @@
  */
 
 get_header();
+get_sidebar();
 ?>
 
 <div id="primary" class="content-area">
     <main id="main" class="site-main container">
 
-        <!-- STILLS Section -->
-        <section class="media-row">
-            <h2 class="section-title">Stills</h2>
-            <div class="media-grid">
-                <?php for ($i = 1; $i <= 3; $i++): 
-                    $image = get_field("stills_image_$i");
-                    $link = get_field("stills_link_$i");
-                    if ($image && $link): ?>
-                        <div class="media-card">
-                            <a href="<?php echo esc_url($link); ?>">
-                                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" class="media-img" />
-                            </a>
-                        </div>
-                    <?php endif;
-                endfor; ?>
-            </div>
-        </section>
 
         <!-- INTERVIEWS Section -->
         <section class="media-row">
